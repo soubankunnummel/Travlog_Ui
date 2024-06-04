@@ -14,7 +14,7 @@ function Services() {
       <div className='flex-1 sm:w-full   flex   md:flex-row sm:flex-row md:overflow-x-auto sm:overflow-x-auto  hide-scrollbar'>
       <div className='flex md:space-x-4 sm:space-x-3 sm:flex-row flex-col gap-4 justify-center items-center space-x-0 '>
       {
-        data.map((item,index) => (   <ServiceCard title={item.title} image={item.image} index={index}/>))
+        data.map((item,index) => (   <ServiceCard title={item.title} image={item.image} index={index} disc={item.desce}/>))
       }
       
       </div>

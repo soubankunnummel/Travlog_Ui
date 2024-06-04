@@ -27,16 +27,16 @@ export default function Home() {
         <Services />
       </div>
       <div>
-        <TopDestination/>
+        <TopDestination />
       </div>
       <div>
-        <TravelPoint/>
+        <TravelPoint />
       </div>
       <div>
-        <KeyFeatures/>
+        <KeyFeatures />
       </div>
 
-      <Footex/>
+      <Footex />
     </div>
   );
 }
