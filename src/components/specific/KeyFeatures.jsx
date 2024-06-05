@@ -24,7 +24,7 @@ export default function KeyFeatures() {
          
         {data.map((itme,i) => (
             <div className="w-full md:w-[549px] md:h-[164px] sm:w-[700px] flex justify-center items-center sm:p-5 md:p-2" key={i} >
-            <div className="w-[334px]  md:h-[135px] sm:w-[832px] h-[290px] sm:h-[164px] border flex flex-col sm:flex-row  justify-center sm:justify-start sm:items-center    rounded-[32px] items-start text-start gap-8  p-5 bg-red-100  ">
+            <div className="w-[334px]  md:h-[135px] sm:w-[832px] h-[290px] sm:h-[164px] border flex flex-col sm:flex-row  justify-center sm:justify-start sm:items-center    rounded-[32px] items-start text-start gap-8  p-5   ">
               <Sapes bg={"bg-[#FF5722] "} icon={itme.icon} />
               <div>
                 <h1 className="text-[23px] text-smalltxt font-bold ">
